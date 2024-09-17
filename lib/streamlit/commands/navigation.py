@@ -234,7 +234,6 @@ def navigation(
             p.is_default = page._default
             p.section_header = section_header
             p.url_pathname = page.url_path
-            # print(page.url_path)
 
     ctx = get_script_run_ctx()
     if not ctx:
@@ -261,9 +260,6 @@ def navigation(
     if not page_to_return:
         send_page_not_found(ctx)
         page_to_return = default_page
-
-    # msg.page_config_changed.layout = PageConfigProto.CENTERED
-    # print("page layout ", msg.page_config_changed.layout)
 
     # Ordain the page that can be called
     page_to_return._can_be_called = True
