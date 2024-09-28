@@ -1,5 +1,10 @@
-!pip install streamlit # install the missing module
+pip install streamlit
 import streamlit as st
+
+st.title('Hello, Streamlit!')
+st.write('This is a simple Streamlit app.')
+streamlit run my_app.py
+
 
 # prepare some data
 x = [1, 2, 3, 4, 5]
