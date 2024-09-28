@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1lByLe2JbqQg47Q58Cx3AMRYXmA8KGKtv
 """
 
-pip install bokeh
-
 !pip install streamlit # install the missing module
 import streamlit as st
 
