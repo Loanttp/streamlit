@@ -1,4 +1,18 @@
-pip install streamlit
 import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
 
-st.write("Hello world!")
+# Tạo dữ liệu mẫu
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Vẽ biểu đồ
+plt.figure(figsize=(10, 5))
+plt.plot(x, y, label='Sine Wave', color='blue')
+plt.title('Biểu đồ Sine Wave')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.legend()
+
+# Hiển thị biểu đồ trên Streamlit
+st.pyplot(plt)
