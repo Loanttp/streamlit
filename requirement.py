@@ -19,3 +19,5 @@ import bokeh.plotting
 
 # Enable viewing Bokeh plots in the notebook
 bokeh.io.output_notebook()
+
+import matplotlib 
