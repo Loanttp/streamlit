@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1KovDrABZ5p0O62BfCoISggi1Wh1fEduQ
 """
 
-!pip install streamlit
-
 # -*- coding: utf-8 -*-
 """code.ipynb
 
