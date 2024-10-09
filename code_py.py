@@ -17,7 +17,7 @@ Original file is located at
 """
 
 import streamlit as st
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 
 #Tiêu đề ứng dụng
